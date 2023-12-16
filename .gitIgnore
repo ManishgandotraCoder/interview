@@ -1,0 +1,7 @@
+/server-side/apis/node_modules
+/server-side/node_modules
+/server-side/socket/node_modules
+
+/server-side/apis/package-lock.json
+/server-side/package-lock.json
+/server-side/socket/package-lock.json
