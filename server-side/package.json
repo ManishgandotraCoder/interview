@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "concurrently \"nodemon server.js\" \"nodemon ./socket/server.js\" \"nodemon ./apis/server.js\""
+    "start": "concurrently \"nodemon server.js\" \"nodemon ./apis/server.js\""
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/ManishgandotraCoder/interview#readme",
   "dependencies": {
+    "bcrypt": "^5.1.1",
     "concurrently": "^8.2.2",
     "fast-gateway": "^3.4.5"
   }
